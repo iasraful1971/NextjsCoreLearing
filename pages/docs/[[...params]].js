@@ -9,7 +9,7 @@ function Doc(){
     }else if (params.length === 1) {
         return <h2>Views doc for features {params[0]} </h2>
     }
-    console.log(params)
+
     return <h1> This is Doc Home page</h1>
 }
 
